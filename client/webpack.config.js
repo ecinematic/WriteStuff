@@ -23,8 +23,8 @@ module.exports = () => {
         title: 'J.A.T.E'
       }),
       new InjectManifest({
-        swSrc: './scr-sw.js',
-        swDest: 'src-sw.js',
+        swSrc: './src-sw.js',
+        swDest: './src-sw.js',
       }),
       new WebpackPwaManifest ({
         fingerprints: false,
