@@ -15,7 +15,8 @@
   "author": "Manuel Corral",
   "license": "ISC",
   "engines": {
-    "node": "18.14.0"
+    "node": "18.14.0",
+    "npm": "7x"
   },
   "dependencies": {
     "express": "^4.18.2",
